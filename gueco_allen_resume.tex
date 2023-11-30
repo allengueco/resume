@@ -26,7 +26,9 @@
 	11pt, % Default font size, can use 10pt, 11pt or 12pt
 ]{resume} % Use the resume class
 
-\usepackage{ebgaramond} % Use the EB Garamond font
+% Use the EB Garamond font
+\usepackage{ebgaramond}
+\usepackage{textcomp}
 
 %------------------------------------------------
 
@@ -48,7 +50,7 @@
 \begin{rSection}{Education}
 	
 	\textbf{Villanova University} \hfill May 2020 \\
-	B.S. in Computer Science \hfill \textit{Villanova, PA} \\
+	B.S.\ in Computer Science \hfill \textit{Villanova, PA} \\
 	
 \end{rSection}
 
@@ -58,26 +60,27 @@
 
 \begin{rSection}{Experience}
 
-	\begin{rSubsection}{BNY Mellon \textbar{} Pershing}{June 2020 - Present}{Lead Full Stack Developer}{Pennington, NJ}
+	\begin{rSubsection}{BNY Mellon \textbar{} Pershing}{June 2020 - Present}{Senior Associate, Full Stack Developer}{Pennington, NJ}
 		\item Developing an internal load testing tool to monitor and benchmark existing critical microservices.
-		\item Creating and maintaining REST-ful APIs and microservices using Spring Boot and its related technologies.
-		\item Designing and developing responsive and mobile-friendly login screens for company products.
+		\item Assisting in rewriting critical components for an internal configuration management tool.
+		\item Creating and maintaining REST-ful internal APIs and microservices using Spring Boot and its related technologies.
 		\item Helping to create an internal tool which collect runtime information of Java-based projects using Java Agents.
-		\item Containerizing various types of frontend and backend applications using Docker and deploying on-prem.
+		\item Containerizing frontend and backend applications using Docker and deploying on-prem.
+		\item Designed responsive and mobile-friendly login screens for company products.
 		\item Maintained CI/CD pipelines to greatly improve developer workflow.
 	\end{rSubsection}
 
 %------------------------------------------------
 
 	\begin{rSubsection}{Villanova University}{Sep 2019 - May 2020}{Web Application Consultant}{Villanova, PA}
-		\item Developed additional features of Villanova University\textquotesingle{}s official mobile app by overhauling the UX/UI.
+		\item Developed additional features of Villanova University\textquotesingle{}s official mobile app by overhauling the UX/UI\@.
 		\item Assisted in creating a Microsoft Power App that unified information across different campus departments.
 	\end{rSubsection}
 
 %------------------------------------------------
 
 	\begin{rSubsection}{AmerisourceBergen Corporation}{June 2019 - Aug 2019}{EDI Intern}{Chesterbrook, PA}
-		\item Assisted the development of an automated testing tool for the Eletronic Data Interchange (EDI) team to ensure data integrity from b2b transactions.
+		\item Assisted the development of an automated testing tool for the Electronic Data Interchange (EDI) team to ensure data integrity from b2b transactions.
 		\item Designed APIs through MuleSoft to provide a REST-ful service for the tool.
 		\item Created an Oracle PL/SQL procedure that produces and emails a report based on the result of an ad-hoc query.
 	\end{rSubsection}
@@ -92,7 +95,7 @@
 \begin{rSection}{Skills}
 
 	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
-		Programming Languages & Java, Rust, Python, Kotlin, TypeScript, C\# \\
+		Programming Languages & Java, Rust, Kotlin, TypeScript,Python, C\# \\
 		Frameworks & Spring Boot, Angular 2+, Pandas, Matplotlib \\
 		OS & Windows, Linux (Ubuntu) \\
 		Tools \& Technologies & Git, Jira, Docker, Agile, CI/CD, DevOps
@@ -106,8 +109,12 @@
 
 \begin{rSection}{Projects}
 
-	\textbf{Apolaki}, {\sl Rust}\\ A ray tracer library implemented from scratch using Test-Driven Development (TDD) principles.\\ https://github.com/allengueco/apolaki-rs\\\\
-	\textbf{Movie Recommender}, {\sl Rust}\\ A movie recommender system implemented using user-based collaborative filtering, a neighborhood reduction using covering-based rough sets.\\ https://github.com/allengueco/recommender\\\\
+	\textbf{Apolaki}, \textsl{Rust}\\
+		A ray tracer library implemented from scratch using Test-Driven Development (TDD) principles.\\
+		https://github.com/allengueco/apolaki-rs\\\\
+	\textbf{Movie Recommender}, \textsl{Rust}\\
+		A movie recommender system implemented using user-based collaborative filtering, a neighborhood reduction using covering-based rough sets.\\
+		https://github.com/allengueco/recommender\\\\
 
 \end{rSection}
 
