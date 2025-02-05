@@ -1,0 +1,119 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+%a4paper, % Uncomment for A4 paper size (default is US letter)
+11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+% Use the EB Garamond font
+% \usepackage{ebgaramond}
+\usepackage{textcomp}
+
+%------------------------------------------------
+
+\name{Allen Gueco} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{allen.gueco1@gmail.com | Philadelphia, PA} % A secondary address (optional)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\textbf{Villanova University} \hfill May 2020 \\
+B.S.\ in Computer Science \hfill \textit{Villanova, PA} \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+	\begin{rSubsection}{BNY Mellon \textbar{} Pershing}{Jun 2020 - Jan 2024}{Senior Associate, Full Stack Engineer}{Pennington, NJ}
+		\item Developed an internal load testing tool to monitor and benchmark existing critical microservices.
+		\item Assisted in rewriting critical Angular and Spring Boot components for an internal configuration management tool.
+		\item Created and maintained REST-ful internal APIs and microservices using Spring Boot and its related technologies.
+		\item Helped create an internal tool which collect runtime information of Java projects using Agents.
+		\item Remediated cyber vulnerabilities and static code scan findings.
+		\item Enhanced a Spring Boot microservice that integrates vendor product for providing geolocation info to login services.
+		\item Ensured adequate code coverage using Unit and Integration Testing for Java (Mockito, and JUnit) and Angular (Jasmine, Karma, and Cypress) projects.
+		\item Worked on Agile-based development teams with members located across US and India.
+		\item Containerized frontend and backend applications using Docker and deploying on-prem.
+		\item Designed responsive and mobile-friendly login screens for company products.
+		\item Maintained and implemented CI/CD pipelines to greatly improve developer workflow.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{AmerisourceBergen Corporation}{Jun 2019 - Aug 2019}{EDI Intern}{Chesterbrook, PA}
+		\item Developed an internal tool for the Electronic Data Interchange (EDI) team to ensure data integrity for b2b transactions.
+		\item Designed APIs through MuleSoft to provide a REST-ful service for the tool.
+		\item Created an Oracle PL/SQL procedure that emails a report based on an ad-hoc query.
+	\end{rSubsection}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Programming Languages & Java, Rust, Kotlin, TypeScript, JavaScript, Python, C\# \\
+		Frameworks & Spring, Angular 2+, Angular Material, Reactive Programming \\
+		OS & Windows, Linux (Ubuntu), MacOS \\
+		Tools \& Technologies & Git, Jira, Confluence, Gradle, Docker, Splunk, BrowserStack, \\
+		\phantom & SonarQube, Veracode, IntelliJ, VSCode, Postman, Insomnia, \\
+		\phantom & Agile, CI/CD, DevOps \\
+	\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Projects SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+\textbf{Apolaki}, \textsl{Rust}\\
+        A ray tracer library implemented from scratch using Test-Driven Development (TDD) principles.\\
+	https://github.com/allengueco/apolaki-rs\\\\
+\textbf{Betaguess}, \textsl{Angular, TailwindCSS}\\
+	A Word-of-the-day guessing game.\\
+	https://github.com/allengueco/betaguess\\ 
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+\end{document}
