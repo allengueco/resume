@@ -13,7 +13,7 @@
       "Full Stack Engineer",
     ),
   ),
-  font: "Source Sans Pro",
+  font: "Roboto",
   profile-picture: none,
   date: datetime.today().display(),
   language: "en",
@@ -45,8 +45,11 @@
 )
 
 #resume-item[
-  // content doesn't have to be bullet points
-  #lorem(72)
+  - Developing an internal load testing tool to monitor and benchmark existing critical microservices.
+  - Assisting in rewriting criticla Angular and Spring Boot components for na itnernal configuration management tool.
+  - Creating and maintaining REST APIs and microservices using Spring Boot and related technologies.
+  - Helping to create an internal tool which collects runtime information of Java-based projects using Java Agents.
+  - Remedating cyber vulnerabilities and static code scan findings.
 ]
 
 #resume-entry(
