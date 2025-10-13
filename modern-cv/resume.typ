@@ -32,9 +32,12 @@
 )
 
 #resume-item[
-  - #lorem(20)
-  - #lorem(15)
-  - #lorem(25)
+  - Supporting the Bill Pay Team 
+  - backend
+  - front end
+  - integration test
+  - on call stuff
+  - mentoring people
 ]
 
 #resume-entry(
@@ -45,11 +48,11 @@
 )
 
 #resume-item[
-  - Developing an internal load testing tool to monitor and benchmark existing critical microservices.
-  - Assisting in rewriting criticla Angular and Spring Boot components for na itnernal configuration management tool.
-  - Creating and maintaining REST APIs and microservices using Spring Boot and related technologies.
-  - Helping to create an internal tool which collects runtime information of Java-based projects using Java Agents.
-  - Remedating cyber vulnerabilities and static code scan findings.
+  - Developed an internal load testing tool to monitor and benchmark existing critical microservices.
+  - Assisted in rewriting critical Angular and Spring Boot components for an internal configuration management tool.
+  - Created and maintaining REST APIs and microservices using Spring Boot and related technologies.
+  - Helped to create an internal tool which collects runtime information of Java-based projects using Java Agents.
+  - Remediated cyber vulnerabilities and static code scan findings.
 ]
 
 #resume-entry(
