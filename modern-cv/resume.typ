@@ -4,7 +4,7 @@
   author: (
     firstname: "Allen",
     lastname: "Gueco",
-    email: "allen.gueco1@gmail.com  ",
+    email: "allen.gueco1@gmail.com",
     homepage: "https://allengueco.com",
     github: "allengueco",
     linkedin: "allengueco",
